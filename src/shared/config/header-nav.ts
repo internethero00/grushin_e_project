@@ -1,0 +1,1 @@
+export const headerNav = ['About Me', 'Projects', 'Contacts'];
