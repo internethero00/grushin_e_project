@@ -1,0 +1,18 @@
+.stack_main {
+  @apply flex flex-col items-center space-y-5 mt-[100px];
+  h1 {
+    @apply text-3xl;
+  }
+}
+.backend {
+  @apply flex flex-col items-center space-y-5;
+  h2 {
+    @apply font-bold text-4xl mt-5 mb-8;
+  }
+  .backend_img {
+    @apply flex gap-x-8;
+  }
+}
+img {
+  @apply w-[100px] h-[100px];
+}

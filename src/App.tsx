@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
 import {Header} from "./components/Header/Header.tsx";
 import './App.css'
+import {Main} from "@/components/Main/Main.tsx";
 
 function App() {
     const [isDark, setIsDark] = useState(false)
@@ -13,9 +14,7 @@ function App() {
 
     return (<div>
         <Header setIsDark={setIsDark} isDark={isDark} setLangs={setLangs} langs={langs}/>
-        {/*<Hero/>*/}
-        {/*<Stack/>;*/}
-        {/*<Projects/>*/}
+        <Main/>
         {/*<Footer/>*/}
 
     </div>)

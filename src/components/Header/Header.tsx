@@ -43,7 +43,7 @@ export function Header({setIsDark, isDark, langs, setLangs}: HeaderProps) {
                         </SelectContent>
                     </Select>
                 </div>
-                <div>
+                <div className={styles.icon}>
                     {isDark ? <div onClick={() => setIsDark(false)}><Sun/></div>
                         : <div onClick={() => setIsDark(true)}><Moon/></div>}
                 </div>

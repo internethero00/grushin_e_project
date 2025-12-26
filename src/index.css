@@ -4,16 +4,18 @@
 
 @layer base {
     :root {
-        --background: 107 35.2% 91.1% / 0.76;
+        --background: 267 35.7% 90.8% / 0.73;
+        --background-secondary: 267 0% 100% / 0.9;
         --foreground: 0 0% 10%;
         --primary: 220 90% 56%;
         --border: 220 14% 90%;
     }
     .dark {
         --background: 317 13.6% 4.2% / 0.8;
+        --background-secondary: 267 0% 18.1% / 0.9;
         --foreground: 0 0% 98%;
         --primary: 220 90% 65%;
         --border: 220 14% 25%;
-        --text-color: 107 0% 51%
+        --text-color: 107 0% 63.8%
     }
 }

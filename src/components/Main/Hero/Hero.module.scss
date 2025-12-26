@@ -1,0 +1,10 @@
+.hero_main {
+  @apply flex flex-col mt-[150px] space-y-5 items-center;
+}
+h1 {
+  @apply font-mono;
+}
+
+p {
+  @apply text-3xl text-center;
+}
